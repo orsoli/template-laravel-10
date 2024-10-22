@@ -32,3 +32,16 @@ resolve: {
 - Import bootstrap library in file app.js: `import * as bootstrap from "bootstrap";`.
 
 
+
+# Make and Use as Template a repository
+- Open the project repository in github.
+- Go to `Settings` (top-right to screen).
+- In `General` check `Template repository`.
+- Create new repository.
+- Open this new project.
+- Copy/Paste the `.env.example` file in scaffholdings, and rename `.env`.
+- In terminals execute `npm i` and `composer i`.
+- Execute `php artisan key:generate` generating new unic key.
+- Run the project front and server: `php artisan serve` and `npm run dev`.
+
+
